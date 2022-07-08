@@ -1,0 +1,14 @@
+﻿syntax = "proto3";
+option csharp_namespace = "washapp.orders.infrastructure.Grpc.Proto";
+
+service Customers {
+  rpc GetCustomer(CustomerRequest) returns (CustomerReply);
+}
+
+message CustomerRequest {
+  string customerId=1;
+}
+
+message CustomerReply {
+  string Customer=1;
+}

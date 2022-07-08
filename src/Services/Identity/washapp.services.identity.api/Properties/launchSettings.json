@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+
+  "profiles": {
+    "washapp.services.identity.api.development": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://localhost:5010",
+      "launchBrowser": false,
+      "launchUrl": "swagger"
+    }
+  }
+}

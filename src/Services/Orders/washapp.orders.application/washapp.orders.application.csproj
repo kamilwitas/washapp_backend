@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Grpc.Core" Version="2.45.0" />
+      <PackageReference Include="Humanizer" Version="2.14.1" />
+      <PackageReference Include="MassTransit" Version="8.0.1" />
+      <PackageReference Include="MassTransit.Abstractions" Version="8.0.1" />
+      <PackageReference Include="MassTransit.RabbitMQ" Version="8.0.1" />
+      <PackageReference Include="MediatR" Version="10.0.1" />
+      <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageReference Include="Serilog.AspNetCore" Version="5.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Shared\EventBus.Messages\EventBus.Messages.csproj" />
+      <ProjectReference Include="..\washapp.orders.core\washapp.orders.core.csproj" />
+    </ItemGroup>
+
+</Project>

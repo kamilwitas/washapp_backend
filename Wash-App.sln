@@ -1,0 +1,145 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6164B8C5-8ACE-4335-80F8-D48D5C7C138C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9B63A7E1-E4CF-48F0-A65D-B443E42E3342}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{DE74C48C-ADFE-47AD-8C63-1C056FA7A214}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{0696CE26-DF65-460B-BD06-C3ACBF5764D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{B93B028C-E52A-4DB8-8F8F-F51CC1755866}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Customers", "Customers", "{C7D3E417-E0C2-4622-A379-D2DB8D805093}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Orders", "Orders", "{41BBB185-A8FB-4E7D-A838-8B41FA8829E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{68714909-FA84-4A87-9802-1CCEC4186E2D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "washapp.services.customers.infrastructure", "src\Services\Customers\washapp.services.customers.infrastructure\washapp.services.customers.infrastructure.csproj", "{C1A2CE28-A004-432D-AADE-DF8B5B581C94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "washapp.services.customers.domain", "src\Services\Customers\washapp.services.customers.domain\washapp.services.customers.domain.csproj", "{113E2A94-EB73-40B4-A7E5-808E86A95606}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "washapp.services.customers.application", "src\Services\Customers\washapp.services.customers.application\washapp.services.customers.application.csproj", "{E7B815FD-8DE3-4A57-B9AD-60FD1442BBF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "washapp.services.customers.api", "src\Services\Customers\washapp.services.customers.api\washapp.services.customers.api.csproj", "{C9EB813B-E8DF-445C-AC8C-00E7EEAEAA30}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "washapp.gateway", "src\Services\Gateway\washapp.gateway\washapp.gateway.csproj", "{A7B630AB-6562-47E6-B27F-66D27634C597}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "washapp.services.identity.infrastructure", "src\Services\Identity\washapp.services.identity.infrastructure\washapp.services.identity.infrastructure.csproj", "{A09B723F-707A-4DC9-B694-E94CD4279A82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "washapp.services.identity.domain", "src\Services\Identity\washapp.services.identity.domain\washapp.services.identity.domain.csproj", "{6E5E96B9-21AF-443F-8C59-B0E414699D1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "washapp.services.identity.application", "src\Services\Identity\washapp.services.identity.application\washapp.services.identity.application.csproj", "{DF27CFE2-8DE8-4026-883D-0AEAF4AC99C8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "washapp.services.identity.api", "src\Services\Identity\washapp.services.identity.api\washapp.services.identity.api.csproj", "{07F3C7BA-9E62-42FC-BDD7-8E72A707510B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "washapp.orders.infrastructure", "src\Services\Orders\washapp.orders.infrastructure\washapp.orders.infrastructure.csproj", "{A635107E-554C-469F-B617-AC772D3A125A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "washapp.orders.core", "src\Services\Orders\washapp.orders.core\washapp.orders.core.csproj", "{DD9DD706-2C86-4EB0-9048-476664126A38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "washapp.orders.application", "src\Services\Orders\washapp.orders.application\washapp.orders.application.csproj", "{CEA77835-0DA3-4063-89BE-4756DE12DD28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "washapp.orders.api", "src\Services\Orders\washapp.orders.api\washapp.orders.api.csproj", "{696D2F40-C625-46CC-BD90-487987D01F13}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Messages", "src\Shared\EventBus.Messages\EventBus.Messages.csproj", "{0954D017-BDF8-4E59-BEBF-9BB0F8EB4A1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6164B8C5-8ACE-4335-80F8-D48D5C7C138C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6164B8C5-8ACE-4335-80F8-D48D5C7C138C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6164B8C5-8ACE-4335-80F8-D48D5C7C138C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6164B8C5-8ACE-4335-80F8-D48D5C7C138C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1A2CE28-A004-432D-AADE-DF8B5B581C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A2CE28-A004-432D-AADE-DF8B5B581C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A2CE28-A004-432D-AADE-DF8B5B581C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A2CE28-A004-432D-AADE-DF8B5B581C94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{113E2A94-EB73-40B4-A7E5-808E86A95606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113E2A94-EB73-40B4-A7E5-808E86A95606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113E2A94-EB73-40B4-A7E5-808E86A95606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113E2A94-EB73-40B4-A7E5-808E86A95606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7B815FD-8DE3-4A57-B9AD-60FD1442BBF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7B815FD-8DE3-4A57-B9AD-60FD1442BBF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7B815FD-8DE3-4A57-B9AD-60FD1442BBF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7B815FD-8DE3-4A57-B9AD-60FD1442BBF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9EB813B-E8DF-445C-AC8C-00E7EEAEAA30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9EB813B-E8DF-445C-AC8C-00E7EEAEAA30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9EB813B-E8DF-445C-AC8C-00E7EEAEAA30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9EB813B-E8DF-445C-AC8C-00E7EEAEAA30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7B630AB-6562-47E6-B27F-66D27634C597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B630AB-6562-47E6-B27F-66D27634C597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B630AB-6562-47E6-B27F-66D27634C597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B630AB-6562-47E6-B27F-66D27634C597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A09B723F-707A-4DC9-B694-E94CD4279A82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A09B723F-707A-4DC9-B694-E94CD4279A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A09B723F-707A-4DC9-B694-E94CD4279A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A09B723F-707A-4DC9-B694-E94CD4279A82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E5E96B9-21AF-443F-8C59-B0E414699D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5E96B9-21AF-443F-8C59-B0E414699D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5E96B9-21AF-443F-8C59-B0E414699D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5E96B9-21AF-443F-8C59-B0E414699D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF27CFE2-8DE8-4026-883D-0AEAF4AC99C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF27CFE2-8DE8-4026-883D-0AEAF4AC99C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF27CFE2-8DE8-4026-883D-0AEAF4AC99C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF27CFE2-8DE8-4026-883D-0AEAF4AC99C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07F3C7BA-9E62-42FC-BDD7-8E72A707510B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07F3C7BA-9E62-42FC-BDD7-8E72A707510B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07F3C7BA-9E62-42FC-BDD7-8E72A707510B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07F3C7BA-9E62-42FC-BDD7-8E72A707510B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A635107E-554C-469F-B617-AC772D3A125A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A635107E-554C-469F-B617-AC772D3A125A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A635107E-554C-469F-B617-AC772D3A125A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A635107E-554C-469F-B617-AC772D3A125A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD9DD706-2C86-4EB0-9048-476664126A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9DD706-2C86-4EB0-9048-476664126A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9DD706-2C86-4EB0-9048-476664126A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9DD706-2C86-4EB0-9048-476664126A38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEA77835-0DA3-4063-89BE-4756DE12DD28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEA77835-0DA3-4063-89BE-4756DE12DD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEA77835-0DA3-4063-89BE-4756DE12DD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEA77835-0DA3-4063-89BE-4756DE12DD28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{696D2F40-C625-46CC-BD90-487987D01F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{696D2F40-C625-46CC-BD90-487987D01F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{696D2F40-C625-46CC-BD90-487987D01F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{696D2F40-C625-46CC-BD90-487987D01F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0954D017-BDF8-4E59-BEBF-9BB0F8EB4A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0954D017-BDF8-4E59-BEBF-9BB0F8EB4A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0954D017-BDF8-4E59-BEBF-9BB0F8EB4A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0954D017-BDF8-4E59-BEBF-9BB0F8EB4A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE74C48C-ADFE-47AD-8C63-1C056FA7A214} = {9B63A7E1-E4CF-48F0-A65D-B443E42E3342}
+		{0696CE26-DF65-460B-BD06-C3ACBF5764D1} = {9B63A7E1-E4CF-48F0-A65D-B443E42E3342}
+		{B93B028C-E52A-4DB8-8F8F-F51CC1755866} = {DE74C48C-ADFE-47AD-8C63-1C056FA7A214}
+		{C7D3E417-E0C2-4622-A379-D2DB8D805093} = {DE74C48C-ADFE-47AD-8C63-1C056FA7A214}
+		{41BBB185-A8FB-4E7D-A838-8B41FA8829E5} = {DE74C48C-ADFE-47AD-8C63-1C056FA7A214}
+		{68714909-FA84-4A87-9802-1CCEC4186E2D} = {DE74C48C-ADFE-47AD-8C63-1C056FA7A214}
+		{C1A2CE28-A004-432D-AADE-DF8B5B581C94} = {C7D3E417-E0C2-4622-A379-D2DB8D805093}
+		{113E2A94-EB73-40B4-A7E5-808E86A95606} = {C7D3E417-E0C2-4622-A379-D2DB8D805093}
+		{E7B815FD-8DE3-4A57-B9AD-60FD1442BBF8} = {C7D3E417-E0C2-4622-A379-D2DB8D805093}
+		{C9EB813B-E8DF-445C-AC8C-00E7EEAEAA30} = {C7D3E417-E0C2-4622-A379-D2DB8D805093}
+		{A7B630AB-6562-47E6-B27F-66D27634C597} = {68714909-FA84-4A87-9802-1CCEC4186E2D}
+		{A09B723F-707A-4DC9-B694-E94CD4279A82} = {B93B028C-E52A-4DB8-8F8F-F51CC1755866}
+		{6E5E96B9-21AF-443F-8C59-B0E414699D1D} = {B93B028C-E52A-4DB8-8F8F-F51CC1755866}
+		{DF27CFE2-8DE8-4026-883D-0AEAF4AC99C8} = {B93B028C-E52A-4DB8-8F8F-F51CC1755866}
+		{07F3C7BA-9E62-42FC-BDD7-8E72A707510B} = {B93B028C-E52A-4DB8-8F8F-F51CC1755866}
+		{A635107E-554C-469F-B617-AC772D3A125A} = {41BBB185-A8FB-4E7D-A838-8B41FA8829E5}
+		{DD9DD706-2C86-4EB0-9048-476664126A38} = {41BBB185-A8FB-4E7D-A838-8B41FA8829E5}
+		{CEA77835-0DA3-4063-89BE-4756DE12DD28} = {41BBB185-A8FB-4E7D-A838-8B41FA8829E5}
+		{696D2F40-C625-46CC-BD90-487987D01F13} = {41BBB185-A8FB-4E7D-A838-8B41FA8829E5}
+		{0954D017-BDF8-4E59-BEBF-9BB0F8EB4A1C} = {0696CE26-DF65-460B-BD06-C3ACBF5764D1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F27A351-72BD-4F50-A4B7-50127533876F}
+	EndGlobalSection
+EndGlobal

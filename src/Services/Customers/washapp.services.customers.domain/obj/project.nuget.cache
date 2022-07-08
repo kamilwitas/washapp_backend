@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zV35D4+LkbaVvYyqv8u3ZQQkc/i8XrOVFDVNP+8eVbhMfQz9XVw9J1/czIS+6Smz/NX3EqClZk1EeasaMhs6hA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Kamil Witas\\Desktop\\WashApp.Backend-master\\src\\Services\\Customers\\washapp.services.customers.domain\\washapp.services.customers.domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kamil Witas\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512"
+  ],
+  "logs": []
+}
